@@ -11,9 +11,7 @@ $theme-colors-text: (
   "primary": $primary-text-emphasis,
   "secondary": $secondary-text-emphasis,
   "success": $success-text-emphasis,
-  "info": $info-text-emphasis,
   "warning": $warning-text-emphasis,
-  "danger": $danger-text-emphasis,
   "light": $light-text-emphasis,
   "dark": $dark-text-emphasis,
 ) !default;
@@ -24,9 +22,7 @@ $theme-colors-bg-subtle: (
   "primary": $primary-bg-subtle,
   "secondary": $secondary-bg-subtle,
   "success": $success-bg-subtle,
-  "info": $info-bg-subtle,
   "warning": $warning-bg-subtle,
-  "danger": $danger-bg-subtle,
   "light": $light-bg-subtle,
   "dark": $dark-bg-subtle,
 ) !default;
@@ -37,9 +33,7 @@ $theme-colors-border-subtle: (
   "primary": $primary-border-subtle,
   "secondary": $secondary-border-subtle,
   "success": $success-border-subtle,
-  "info": $info-border-subtle,
   "warning": $warning-border-subtle,
-  "danger": $danger-border-subtle,
   "light": $light-border-subtle,
   "dark": $dark-border-subtle,
 ) !default;
@@ -55,9 +49,7 @@ $theme-colors-border-subtle-dark: null !default;
     "primary": $primary-text-emphasis-dark,
     "secondary": $secondary-text-emphasis-dark,
     "success": $success-text-emphasis-dark,
-    "info": $info-text-emphasis-dark,
     "warning": $warning-text-emphasis-dark,
-    "danger": $danger-text-emphasis-dark,
     "light": $light-text-emphasis-dark,
     "dark": $dark-text-emphasis-dark,
   ) !default;
@@ -68,9 +60,7 @@ $theme-colors-border-subtle-dark: null !default;
     "primary": $primary-bg-subtle-dark,
     "secondary": $secondary-bg-subtle-dark,
     "success": $success-bg-subtle-dark,
-    "info": $info-bg-subtle-dark,
     "warning": $warning-bg-subtle-dark,
-    "danger": $danger-bg-subtle-dark,
     "light": $light-bg-subtle-dark,
     "dark": $dark-bg-subtle-dark,
   ) !default;
@@ -81,9 +71,7 @@ $theme-colors-border-subtle-dark: null !default;
     "primary": $primary-border-subtle-dark,
     "secondary": $secondary-border-subtle-dark,
     "success": $success-border-subtle-dark,
-    "info": $info-border-subtle-dark,
     "warning": $warning-border-subtle-dark,
-    "danger": $danger-border-subtle-dark,
     "light": $light-border-subtle-dark,
     "dark": $dark-border-subtle-dark,
   ) !default;

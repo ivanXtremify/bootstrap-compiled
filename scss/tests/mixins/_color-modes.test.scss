@@ -17,7 +17,7 @@
           }
         }
         @include color-mode(dark, true) {
-          --custom-color: #{mix($indigo, $blue, 50%)};
+          --custom-color: #{mix($white, $blue, 50%)};
         }
       }
       @include expect() {
@@ -46,7 +46,7 @@
           }
         }
         @include color-mode(dark, true) {
-          --custom-color: #{mix($indigo, $blue, 50%)};
+          --custom-color: #{mix($white, $blue, 50%)};
         }
       }
       @include expect() {

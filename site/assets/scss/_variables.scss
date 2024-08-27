@@ -14,13 +14,10 @@ $bd-callout-variants: info, warning, danger !default;
   --bd-accent: #{$bd-accent};
   --bd-violet-rgb: #{to-rgb($bd-violet)};
   --bd-accent-rgb: #{to-rgb($bd-accent)};
-  --bd-pink-rgb: #{to-rgb($pink-500)};
-  --bd-teal-rgb: #{to-rgb($teal-500)};
   --bd-violet-bg: var(--bd-violet);
   --bd-toc-color: var(--bd-violet);
   --bd-sidebar-link-bg: rgba(var(--bd-violet-rgb), .1);
   --bd-callout-link: #{to-rgb($blue-600)};
-  --bd-callout-code-color: #{$pink-600};
   --bd-pre-bg: var(--bs-tertiary-bg);
 }
 
@@ -30,6 +27,5 @@ $bd-callout-variants: info, warning, danger !default;
   --bd-toc-color: var(--#{$prefix}emphasis-color);
   --bd-sidebar-link-bg: rgba(#{to-rgb(mix($bd-violet, $black, 75%))}, .5);
   --bd-callout-link: #{to-rgb($blue-300)};
-  --bd-callout-code-color: #{$pink-300};
   --bd-pre-bg: #{adjust-color($gray-900, $lightness: -2.5%)}; // stylelint-disable-line scss/at-function-named-arguments
 }
