@@ -37,9 +37,7 @@ $grays: (
 
 // scss-docs-start color-variables
 $blue:    #0d6efd !default;
-$purple:  #6f42c1 !default;
 $red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 // scss-docs-end color-variables
@@ -47,8 +45,7 @@ $green:   #198754 !default;
 // scss-docs-start colors-map
 $colors: (
   "blue":       $blue,
-  "purple":     $purple,
-  "orange":     $orange,
+  "red":        $red,
   "yellow":     $yellow,
   "green":      $green,
   "black":      $black,
@@ -77,46 +74,6 @@ $blue-700: shade-color($blue, 40%) !default;
 $blue-800: shade-color($blue, 60%) !default;
 $blue-900: shade-color($blue, 80%) !default;
 
-$purple-100: tint-color($purple, 80%) !default;
-$purple-200: tint-color($purple, 60%) !default;
-$purple-300: tint-color($purple, 40%) !default;
-$purple-400: tint-color($purple, 20%) !default;
-$purple-500: $purple !default;
-$purple-600: shade-color($purple, 20%) !default;
-$purple-700: shade-color($purple, 40%) !default;
-$purple-800: shade-color($purple, 60%) !default;
-$purple-900: shade-color($purple, 80%) !default;
-
-$orange-100: tint-color($orange, 80%) !default;
-$orange-200: tint-color($orange, 60%) !default;
-$orange-300: tint-color($orange, 40%) !default;
-$orange-400: tint-color($orange, 20%) !default;
-$orange-500: $orange !default;
-$orange-600: shade-color($orange, 20%) !default;
-$orange-700: shade-color($orange, 40%) !default;
-$orange-800: shade-color($orange, 60%) !default;
-$orange-900: shade-color($orange, 80%) !default;
-
-$yellow-100: tint-color($yellow, 80%) !default;
-$yellow-200: tint-color($yellow, 60%) !default;
-$yellow-300: tint-color($yellow, 40%) !default;
-$yellow-400: tint-color($yellow, 20%) !default;
-$yellow-500: $yellow !default;
-$yellow-600: shade-color($yellow, 20%) !default;
-$yellow-700: shade-color($yellow, 40%) !default;
-$yellow-800: shade-color($yellow, 60%) !default;
-$yellow-900: shade-color($yellow, 80%) !default;
-
-$green-100: tint-color($green, 80%) !default;
-$green-200: tint-color($green, 60%) !default;
-$green-300: tint-color($green, 40%) !default;
-$green-400: tint-color($green, 20%) !default;
-$green-500: $green !default;
-$green-600: shade-color($green, 20%) !default;
-$green-700: shade-color($green, 40%) !default;
-$green-800: shade-color($green, 60%) !default;
-$green-900: shade-color($green, 80%) !default;
-
 $blues: (
   "blue-100": $blue-100,
   "blue-200": $blue-200,
@@ -127,54 +84,6 @@ $blues: (
   "blue-700": $blue-700,
   "blue-800": $blue-800,
   "blue-900": $blue-900
-) !default;
-
-$purples: (
-  "purple-100": $purple-100,
-  "purple-200": $purple-200,
-  "purple-300": $purple-300,
-  "purple-400": $purple-400,
-  "purple-500": $purple-500,
-  "purple-600": $purple-600,
-  "purple-700": $purple-700,
-  "purple-800": $purple-800,
-  "purple-900": $purple-900
-) !default;
-
-$oranges: (
-  "orange-100": $orange-100,
-  "orange-200": $orange-200,
-  "orange-300": $orange-300,
-  "orange-400": $orange-400,
-  "orange-500": $orange-500,
-  "orange-600": $orange-600,
-  "orange-700": $orange-700,
-  "orange-800": $orange-800,
-  "orange-900": $orange-900
-) !default;
-
-$yellows: (
-  "yellow-100": $yellow-100,
-  "yellow-200": $yellow-200,
-  "yellow-300": $yellow-300,
-  "yellow-400": $yellow-400,
-  "yellow-500": $yellow-500,
-  "yellow-600": $yellow-600,
-  "yellow-700": $yellow-700,
-  "yellow-800": $yellow-800,
-  "yellow-900": $yellow-900
-) !default;
-
-$greens: (
-  "green-100": $green-100,
-  "green-200": $green-200,
-  "green-300": $green-300,
-  "green-400": $green-400,
-  "green-500": $green-500,
-  "green-600": $green-600,
-  "green-700": $green-700,
-  "green-800": $green-800,
-  "green-900": $green-900
 ) !default;
 
 // fusv-enable
@@ -256,7 +165,7 @@ $enable-negative-margins:     false !default;
 $enable-deprecation-messages: true !default;
 $enable-important-utilities:  true !default;
 
-$enable-dark-mode:            true !default;
+$enable-dark-mode:            false !default;
 $color-mode-type:             data !default; // `data` or `media-query`
 
 // Prefix for :root CSS variables
@@ -591,7 +500,7 @@ $list-inline-padding:         .5rem !default;
 
 $mark-padding:                .1875em !default;
 $mark-color:                  $body-color !default;
-$mark-bg:                     $yellow-100 !default;
+$mark-bg:                     $yellow !default;
 // scss-docs-end type-variables
 
 

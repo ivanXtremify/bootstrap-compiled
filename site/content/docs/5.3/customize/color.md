@@ -458,9 +458,8 @@ Add, remove, or modify values within the map to update how they're used in many 
 Here's how you can use these in your Sass:
 
 ```scss
-.alpha { color: $purple; }
 .beta {
-  color: $yellow-300;
+  color: $yellow;
 }
 ```
 
@@ -486,7 +485,7 @@ Here's an example that generates text color utilities (e.g., `.text-purple-500`)
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
 
-$all-colors: map-merge-multiple($blues, $purples, $reds, $oranges, $yellows, $greens);
+$all-colors: map-merge-multiple($blues, $reds);
 
 $utilities: map-merge(
   $utilities,

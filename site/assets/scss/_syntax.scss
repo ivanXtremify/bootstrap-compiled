@@ -8,10 +8,8 @@
   --base05: #333;
   --base06: #fff;
   --base08: #{mix($red, $red, 50%)}; // #bc4c00
-  --base0A: #{$purple-500}; // #795da3
   --base0B: #{$blue-700}; // #183691
   --base0C: #{$blue-700}; // #183691
-  --base0D: #{$purple-500}; // #795da3
   --base0F: #333;
 }
 
@@ -23,9 +21,6 @@
   --base04: #868e96;
   --base05: #abb2bf;
   --base06: #b6bdca;
-  --base07: #{$orange-300}; // #d19a66
-  --base09: #{$orange-300}; // #d19a66
-  --base0A: #{$yellow-200}; // #e5c07b
   --base0D: #{$blue-300}; // #61afef
   --base0F: #{$red}; // #be5046
 
@@ -33,7 +28,7 @@
     color: $red;
   }
   .language-diff .gi {
-    color: $green-400;
+    color: $green;
   }
 }
 
