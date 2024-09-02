@@ -7,9 +7,5 @@
 - name: warning
   hex: "#ffc107"
   contrast_color: dark
-- name: light
-  hex: "#f8f9fa"
-  contrast_color: dark
-- name: dark
-  hex: "#343a40"
-  contrast_color: white
+- name: danger
+  hex: "#dc3545"

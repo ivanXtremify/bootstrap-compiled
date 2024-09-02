@@ -12,8 +12,7 @@ $theme-colors-text: (
   "secondary": $secondary-text-emphasis,
   "success": $success-text-emphasis,
   "warning": $warning-text-emphasis,
-  "light": $light-text-emphasis,
-  "dark": $dark-text-emphasis,
+  "danger": $danger-text-emphasis,
 ) !default;
 // scss-docs-end theme-text-map
 
@@ -23,8 +22,7 @@ $theme-colors-bg-subtle: (
   "secondary": $secondary-bg-subtle,
   "success": $success-bg-subtle,
   "warning": $warning-bg-subtle,
-  "light": $light-bg-subtle,
-  "dark": $dark-bg-subtle,
+  "danger": $danger-bg-subtle,
 ) !default;
 // scss-docs-end theme-bg-subtle-map
 
@@ -34,8 +32,7 @@ $theme-colors-border-subtle: (
   "secondary": $secondary-border-subtle,
   "success": $success-border-subtle,
   "warning": $warning-border-subtle,
-  "light": $light-border-subtle,
-  "dark": $dark-border-subtle,
+  "danger": $danger-border-subtle,
 ) !default;
 // scss-docs-end theme-border-subtle-map
 
@@ -50,8 +47,6 @@ $theme-colors-border-subtle-dark: null !default;
     "secondary": $secondary-text-emphasis-dark,
     "success": $success-text-emphasis-dark,
     "warning": $warning-text-emphasis-dark,
-    "light": $light-text-emphasis-dark,
-    "dark": $dark-text-emphasis-dark,
   ) !default;
   // scss-docs-end theme-text-dark-map
 
@@ -61,8 +56,6 @@ $theme-colors-border-subtle-dark: null !default;
     "secondary": $secondary-bg-subtle-dark,
     "success": $success-bg-subtle-dark,
     "warning": $warning-bg-subtle-dark,
-    "light": $light-bg-subtle-dark,
-    "dark": $dark-bg-subtle-dark,
   ) !default;
   // scss-docs-end theme-bg-subtle-dark-map
 
@@ -72,8 +65,6 @@ $theme-colors-border-subtle-dark: null !default;
     "secondary": $secondary-border-subtle-dark,
     "success": $success-border-subtle-dark,
     "warning": $warning-border-subtle-dark,
-    "light": $light-border-subtle-dark,
-    "dark": $dark-border-subtle-dark,
   ) !default;
   // scss-docs-end theme-border-subtle-dark-map
 }
