@@ -692,9 +692,9 @@ progress {
     max-width: 1140px;
   }
 }
-@media (min-width: 1590px) {
+@media (min-width: 1620px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1530px;
+    max-width: 1560px;
   }
 }
 :root {
@@ -703,7 +703,7 @@ progress {
   --xtr-breakpoint-md: 768px;
   --xtr-breakpoint-lg: 992px;
   --xtr-breakpoint-xl: 1200px;
-  --xtr-breakpoint-xxl: 1590px;
+  --xtr-breakpoint-xxl: 1620px;
 }
 
 .row {
@@ -1608,7 +1608,7 @@ progress {
     --xtr-gutter-y: 3rem;
   }
 }
-@media (min-width: 1590px) {
+@media (min-width: 1620px) {
   .col-xxl {
     flex: 1 0 0%;
   }
@@ -1942,7 +1942,7 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (max-width: 1589.98px) {
+@media (max-width: 1619.98px) {
   .table-responsive-xxl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -3419,7 +3419,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 1590px) {
+@media (min-width: 1620px) {
   .sticky-xxl-top {
     position: -webkit-sticky;
     position: sticky;
@@ -7656,7 +7656,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 1590px) {
+@media (min-width: 1620px) {
   .float-xxl-start {
     float: left !important;
   }

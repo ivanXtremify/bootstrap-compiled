@@ -39,9 +39,9 @@
     max-width: 1140px;
   }
 }
-@media (min-width: 1590px) {
+@media (min-width: 1620px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1530px;
+    max-width: 1560px;
   }
 }
 :root {
@@ -50,7 +50,7 @@
   --xtr-breakpoint-md: 768px;
   --xtr-breakpoint-lg: 992px;
   --xtr-breakpoint-xl: 1200px;
-  --xtr-breakpoint-xxl: 1590px;
+  --xtr-breakpoint-xxl: 1620px;
 }
 
 .row {
@@ -956,7 +956,7 @@
     --xtr-gutter-y: 3rem;
   }
 }
-@media (min-width: 1590px) {
+@media (min-width: 1620px) {
   .col-xxl {
     flex: 1 0 0%;
   }
@@ -3583,7 +3583,7 @@
     padding-left: 3rem !important;
   }
 }
-@media (min-width: 1590px) {
+@media (min-width: 1620px) {
   .d-xxl-inline {
     display: inline !important;
   }
